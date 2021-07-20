@@ -1,9 +1,10 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   box-sizing: border-box;
+  line-height: 1.6;
 }
 
 .main-content {
@@ -68,6 +69,8 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
+
 }
 
 header .icon {
@@ -77,6 +80,10 @@ header .icon {
 
 header .mobile {
   display: none;
+}
+
+header .logo {
+  text-decoration:none;
 }
 
 @media only screen and (max-width: 760px) {
